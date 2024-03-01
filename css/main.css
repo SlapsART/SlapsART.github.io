@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-#hero{
+.hero{
     background-image: radial-gradient(circle at 117.54% 50%, #66768c 0, #26527e 50%, #00316f 100%);
+    color: #fff;
 }
