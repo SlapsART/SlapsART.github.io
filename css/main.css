@@ -1,9 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-.hero{
-    background-image: radial-gradient(circle at 117.54% 50%, #66768c 0, #26527e 50%, #00316f 100%);
-    color: #fff;
+    font-family: "Onest", sans-serif;
 }

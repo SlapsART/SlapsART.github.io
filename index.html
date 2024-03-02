@@ -3,20 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
     <title>Porfolio</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
-    <main>
-        <section>
-                    <div class="hero">
-            <div class="text-9xl font-bold underline">
-                <h1>¡Hola! Soy Christian Aldana | Desarrollador web y Diseñador UI</h1>
+<body class="relative text-black dark:text-white">
+    <div class="absolute top-0 bottom-0 z-[-2] min-h-screen w-full bg-gray-50 dark:bg-gray-950
+    bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(217,216,255,0.5),rgba(255,255,255,0.9))]
+    dark:bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
+    <main class="px-4">
+        <section class="section py-16 md:py-36 scroll-m-20 w-full mx-auto container lg:max-w-4xl md:max-w-2xl">
+            <div class="flex gap-4 mb-4">
+                <img class="rounded-full shadow-lg size-16" src="https://mir-s3-cdn-cf.behance.net/user/276/89973a3548609.652c24a8e7ad6.png" alt="">
+                <a  class="flex items-center transition md:justify-center md:hover:scale-105" href="https://www.behance.net/ChristianAldana">
+                    <div class="flex items-center ">
+                        <span class="relative inline-flex overflow-hidden rounded-full p-[1px]">
+                            <span class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#51E4B8_0%,#21554E_50%,#51E4B8_100%)]"></span>
+                            <div class="inline-flex items-center justify-center w-full px-3 py-1 text-sm text-green-800 bg-green-100 rounded-full cursor-pointer dark:bg-gray-800 dark:text-white/80 backdrop-blur-3xl whitespace-nowrap">
+                                Disponible
+                            </div>
+                        </span>
+                    </div>
+                </a>
             </div>
-            <div class="img">
-
+            <div class="max-w-xl">
+                <div class="text-4xl font-bold tracking-tight text-gray-800 sm:text-5xl dark:text-white">
+                    <h1>¡Hola! Soy Christian Aldana</h1>
+                    <p class="mt-6 text-xl text-gray-800 dark:[&>strong]:text-yellow-200 [&>strong]:text-yellow-500 [&>strong]:font-semibold dark:text-gray-300"><strong>Desarrollador web y diseñador UI con +4 años de experiencia, </strong>especializado en interfaces, creación y mantenimiento de sistemas de diseño</p>
+                </div>
             </div>
-        </div>
         </section>
     </main>
     <script src="https://cdn.tailwindcss.com"></script>
